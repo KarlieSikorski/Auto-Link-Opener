@@ -1,0 +1,13 @@
+import webbrowser
+
+def open_links():
+    links = [
+        "https://www.linkedin.com/in/k-sikorski/",
+        "https://github.com/KarlieSikorski",
+    ]
+
+    for link in links:
+        webbrowser.open(link)
+
+if __name__ == "__main__":
+    open_links()
